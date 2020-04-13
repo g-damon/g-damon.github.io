@@ -4153,7 +4153,8 @@ input, select, textarea {
 	@media screen and (max-width: 360px) {
 
 		.mini {
-			font-size: 0.75em;
+			font-size: 0.75em
+			;
 		}
 
 		#footer .inner {
