@@ -4135,6 +4135,13 @@ input, select, textarea {
 
 	}
 
+	@media screen and (max-width: 600px) {
+		a.mini {
+			font-size: 0.65em
+			;
+		}
+	}
+
 	@media screen and (max-width: 480px) {
 
 		#footer .inner .copyright li {
@@ -4152,10 +4159,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
-		.mini {
-			font-size: 0.75em
-			;
-		}
+
 
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
