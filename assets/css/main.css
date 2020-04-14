@@ -4152,8 +4152,8 @@ input, select, textarea {
 
 	@media screen and (max-width: 360px) {
 
-		.mini {
-			font-size: 0.75em
+		a.mini {
+			font-size: 0.65em
 			;
 		}
 
