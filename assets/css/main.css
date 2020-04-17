@@ -171,7 +171,6 @@ input, select, textarea {
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-o-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
@@ -3434,10 +3433,8 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(56, 65, 56, 0.7), rgba(56, 65, 56, 0.4)), url("../../images/acid_creek_by_damnmulletdesign.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
+				background-size: cover;
+				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
 
@@ -4120,3 +4117,23 @@ input, select, textarea {
 		}
 
 	}
+
+	.flexx {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#cab {
+	background-image: url(../../images/cab1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+
+#cab:hover {
+	background-image: url(../../images/cab2.jpg);
+}
