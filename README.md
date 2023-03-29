@@ -1,1 +1,0 @@
-# g-damon.github.io
