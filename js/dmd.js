@@ -2,7 +2,24 @@
     "use strict";
 
 
-    const images = ["bg.jpg", "bg-four-1.jpg", "bg-two.jpg", "bg-four.jpg", "bg-three.jpg"]
+
+    window.onload = function() {
+        // Array of Images
+        let backgroundImg = ["https://g-damon.github.io/img/bg.jpg", "https://g-damon.github.io/img/bg-two.jpg",
+            "https://g-damon.github.io/img/bg-three.jpg", "https://g-damon.github.io/img/bg-four.jpg"
+        ]
+
+        setInterval(changeImage, 10000);
+
+        function changeImage() {
+            let i = Math.floor((Math.random() * 4));
+
+            document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
+
+        }
+    }
+
+
 
 
     /*----- tooltip -----*/
