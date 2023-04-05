@@ -1,19 +1,20 @@
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: #000000;
+    background-color: #040404;
     color: #fff;
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: transparent;
 }
 
 body::before {
     content: "";
-    height: 100vh;
+    position: fixed;
+    background: #040404 url("../img/bg.jpg") top right no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
     z-index: -1;
 }
 
@@ -30,7 +31,7 @@ a {
 
 a:hover {
     color: #35e888;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1,
@@ -48,6 +49,12 @@ h6 {
 
 .funkyTwo {
     color: #11e651;
+}
+
+.hr {
+    color: #63e611;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 
@@ -73,7 +80,7 @@ h6 {
     padding: 0;
     line-height: 1;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 #header h1 a,
