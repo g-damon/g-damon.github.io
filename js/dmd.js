@@ -66,7 +66,10 @@ new Swiper('.references-slider', {
             slidesPerView: 1,
             spaceBetween: 20
         },
-
+        600: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
         1200: {
             slidesPerView: 3,
             spaceBetween: 20
