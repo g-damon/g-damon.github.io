@@ -57,6 +57,17 @@ h6 {
     margin-bottom: 1em;
 }
 
+.gdmLogo {
+    height: 3em;
+    min-height: 3em;
+    width: 2.4em;
+    min-width: 2.4em;
+    background-image: url(../img/gdmLogo.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 /*--------header------0*/
 
