@@ -57,15 +57,29 @@ h6 {
     margin-bottom: 1em;
 }
 
+.header-one {
+    display: inline-block;
+}
+
 .gdmLogo {
-    height: 3em;
-    min-height: 3em;
-    width: 2.4em;
-    min-width: 2.4em;
+    display: inline-block;
+    height: 56px !important;
+    min-height: 56px !important;
+    width: 56px !important;
+    min-width: 56px !important;
     background-image: url(../img/gdmLogo.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .gdmLogo {
+        height: 35px !important;
+        min-height: 35px !important;
+        width: 35px !important;
+        min-width: 35px !important;
+    }
 }
 
 
