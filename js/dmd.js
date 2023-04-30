@@ -1,3 +1,7 @@
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
+
 /*----- tooltip -----*/
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
